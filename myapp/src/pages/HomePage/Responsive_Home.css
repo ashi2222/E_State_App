@@ -1,0 +1,68 @@
+@import url('./Home.css');
+@import url('../../components/SearchBar/Search.css');
+
+@media (max-width: 1366px) {
+    .Wrapper{
+        padding-right : 100px;
+        padding-left:10px;
+    }
+    .search form{
+        border:1px solid gray;
+    }
+}
+@media (max-width: 1024px) {
+    .Wrapper{
+        padding:10px;
+    }
+    .head{
+        font-size:30px;
+    }
+    .search form{
+        height:100px;
+    }
+    .search form input{
+        padding:5px;
+    }
+    .box-head-1{
+        font-size:30px;
+    }
+    .box-head-2{
+        font-size:15px;
+    }
+}
+
+/* Small devices (max-width: 738px) */
+@media (max-width: 738px) {
+    
+    .search form{
+        flex-direction:column;
+        border:none;
+    }
+    .imgcontainer {
+        display:none;
+    }
+    .type{
+        margin-bottom:5px;
+    }
+    .type button:first-child{
+        border-bottom: 1px solid gray;
+    }
+    .type button:last-child{
+        border-bottom: 1px solid gray;
+    }
+    
+    .Wrapper{
+        padding :0;
+        justify-content:start;
+    }
+    .box{
+        display:none;
+    }
+    form input{
+        padding:15px;
+        width:auto;
+    }
+    form button{
+        padding:10px;
+    }
+}

@@ -1,0 +1,57 @@
+
+.search{
+    margin-top:10px;
+    form{
+        height:60px;
+        margin-left:10px;
+        display:flex;
+        justify-content:space-between;
+        gap:5px;
+        a{
+            flex:0.3;
+            background-color:#fece51;
+
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            button{
+                padding:5px;
+                background-color:#fece51;
+                border:none;
+                cursor:pointer;
+            }
+        }
+    }
+}
+.type {
+    margin-left:10px;
+}
+.type button{
+    padding:16px;
+    width:100px;
+    border:1px solid gray;
+    cursor:pointer;
+    background-color:white;
+    color:black;
+    border-bottom:none;
+}
+.type button:first-child{
+    border-top-left-radius: 5px;
+    border-right : none;
+}.type button:last-child{
+    border-top-right-radius: 5px;
+    border-left : none;
+}
+.type .button-active{
+    transition:all 0.5s ease;
+    background-color : black;
+    color: white;
+}
+
+input{
+    width:95px;
+    padding:0px 10px;
+    border:none;
+}
+
+ 

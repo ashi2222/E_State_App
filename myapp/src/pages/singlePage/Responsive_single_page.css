@@ -1,0 +1,49 @@
+
+@media (max-width: 1366px) {
+    .singlePage{
+        .details{
+            overflow-y:scroll;
+        }
+        .features{
+            overflow-y:scroll;
+        }
+    }
+}
+
+/* Medium devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .singlePage{
+        padding-top:20px;
+        flex-direction:column;
+        overflow:scroll;
+        
+        .details{
+            flex:none;
+            height:max-content;
+            overflow:hidden;
+            margin-bottom : 50px;
+        }
+        .features{
+            flex:none;
+            height:max-content;
+            overflow:hidden;
+            margin-bottom:50px;
+            .wrapper{
+                margin-top:20px;
+            }
+        }
+        
+        
+    }
+    .fullSlider .arrow{
+        width:30px;
+        height:50px;
+    }
+}
+@media (max-width: 738px) {
+    .fullSlider .arrow{
+        width:20px;
+    }
+}
+/* Small devices (max-width: 738px) */
+

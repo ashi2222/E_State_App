@@ -1,0 +1,27 @@
+
+.list{
+    display : flex;
+    height:calc(100vh - 100px);
+    .listcontainer
+    {
+        height:100%;
+        flex:3;
+        display:flex;
+        flex-direction:column;
+        .wrapper{
+            flex:1;
+            overflow-y: auto;
+            padding-right:50px;
+            padding-left:20px;
+            display:flex;
+            flex-direction:column;
+            gap:50px;
+            padding-bottom:50px;
+        }
+    }
+    .mapcontainer{
+        height:100%;
+        flex:2;
+        background-color : #fcf5f3;
+    }
+}

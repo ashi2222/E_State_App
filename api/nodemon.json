@@ -1,0 +1,5 @@
+{
+    "watch": ["app.js"],
+    "exec": "node -r dotenv/config app.js"
+  }
+  
