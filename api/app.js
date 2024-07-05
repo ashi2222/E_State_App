@@ -23,6 +23,8 @@ app.use("/api/posts", postRoute);
 app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
 
-app.listen(process.env.PORT, () => {
+const port = process.env.PORT || 8000 ;
+
+app.listen(port, () => {
     console.log("Server is Running");
 });
